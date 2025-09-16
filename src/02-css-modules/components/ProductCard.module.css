@@ -1,0 +1,101 @@
+/* src/02-css-modules/components/ProductCard.module.css */
+
+.productCard {
+  background-color: #2D3748;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.productCardImageContainer {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.productCardImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productCardImageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.productCardTag {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius);
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.tagNovo {
+  background-color: #4C1D95;
+}
+.tagPromo {
+  background-color: #ef4444;
+}
+.productCardContent {
+  padding: var(--spacing-md);
+}
+.productCardTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: center;
+}
+.productCardPrice {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: var(--spacing-sm);
+  text-align: center;
+}
+.productCardRating {
+  color: #facc15;
+  margin-top: var(--spacing-xs);
+  text-align: center;
+}
+.productCardRatingText {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  margin-left: var(--spacing-xs);
+}
+.productCardButton {
+  width: 100%;
+  padding: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+  background-color: #E2E8F0;
+  color: #1a202c;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+.productCardButton:hover {
+  background-color: #CBD5E0;
+}

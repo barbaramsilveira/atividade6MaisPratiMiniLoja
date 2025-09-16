@@ -1,0 +1,21 @@
+/* src/02-css-modules/components/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.75rem;
+    background-color: #4C1D95;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    opacity: 0.8;
+}

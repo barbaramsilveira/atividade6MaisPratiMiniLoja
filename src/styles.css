@@ -1,0 +1,33 @@
+:root {
+  /* Cores */
+  --primary-color: #FBF3D5;
+  --secondary-color: #9CAFAA;
+  --background-color: #D6A99D;
+  --text-color: #1f2937;
+  --card-background: #D6DAC8;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.75rem;
+  --spacing-lg: 1.5rem;
+
+
+  --border-radius: 0.5rem;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
