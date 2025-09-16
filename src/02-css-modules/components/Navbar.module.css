@@ -5,12 +5,12 @@
     align-items: center;
     gap: 1.5rem;
     padding: 0.75rem;
-    background-color: #4C1D95;
+    background-color: #320A6B;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2);
 }
 
 .navbar a {
-    color: #FFFFFF;
+    color: #78B9B5;
     text-decoration: none;
     font-weight: bold;
     transition: opacity 0.2s ease-in-out;

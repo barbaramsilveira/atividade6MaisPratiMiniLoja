@@ -236,6 +236,11 @@ body {
   gap: 2rem;
 }
 
+
+#footer {
+  margin-top: auto;
+}
+
 .title-page {
   text-align: center;
   padding: 2rem 1rem;
@@ -243,7 +248,22 @@ body {
   color: var(--text-color);
 }
 
+.title-page h1 {
+  font-size: 2.5rem;       /* tamanho base grande */
+  font-weight: bold;
+  margin: 0;
+  
+  /* para responsividade */
+}
 
-#footer {
-  margin-top: auto;
+@media (min-width: 768px) {
+  .title-page h1 {
+    font-size: 3.5rem;     /* médio */
+  }
+}
+
+@media (min-width: 1024px) {
+  .title-page h1 {
+    font-size: 4.5rem;     /* grande para telas grandes */
+  }
 }

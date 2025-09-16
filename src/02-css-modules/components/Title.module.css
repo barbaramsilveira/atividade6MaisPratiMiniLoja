@@ -1,6 +1,26 @@
 .titlePage {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #E2E8F0;
-  color: #1a202c;
+  background-color: #78B9B5; /* mantém seu fundo */
+  color: #065084;            /* mantém a cor do texto */
+}
+
+.titlePage h1 {
+  font-size: 2.5rem;       /* tamanho base grande */
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .titlePage h1 {
+    font-size: 3.5rem;     /* médio */
+  }
+}
+
+@media (min-width: 1024px) {
+  .titlePage h1 {
+    font-size: 4.5rem;     /* grande para telas maiores */
+  }
 }
