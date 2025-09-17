@@ -1,4 +1,4 @@
-// src/04-styled-components/theme.js
+
 export const lightTheme = {
   colors: {
     background: "#ffffff",

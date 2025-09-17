@@ -1,4 +1,3 @@
-// src/04-styled-components/components/Skeleton.jsx
 import React from "react";
 import styled, { keyframes } from "styled-components";
 

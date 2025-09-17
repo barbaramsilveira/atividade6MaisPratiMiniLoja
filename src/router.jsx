@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   { path: "/global", element: <CssGlobal /> },
   { path: "/modules", element: <CssModules /> },
   { path: "/tailwind", element: <Tailwind /> },
-  { path: "/styled-components", element: <StyledComponents /> }, // <- mudar aqui
+  { path: "/styled-components", element: <StyledComponents /> },
   { path: "*", element: <CssGlobal /> }
 ]);
 

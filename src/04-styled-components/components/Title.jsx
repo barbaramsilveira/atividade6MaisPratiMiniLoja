@@ -1,4 +1,3 @@
-// src/04-styled-components/components/Title.jsx
 import React from "react";
 import styled from "styled-components";
 

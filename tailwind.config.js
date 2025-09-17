@@ -1,4 +1,3 @@
-// tailwind.config.js para v4
 export default {
   content: [
     "./index.html",

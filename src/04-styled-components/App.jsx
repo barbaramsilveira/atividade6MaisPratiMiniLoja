@@ -1,4 +1,3 @@
-// src/04-styled-components/App.jsx
 import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import { lightTheme, darkTheme } from "./theme";
